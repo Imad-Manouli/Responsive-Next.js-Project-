@@ -43,7 +43,7 @@ export default function Header(){
             </div>
 
             {/* header part 2 */}
-            <div className='flex flex-row justify-between  px-5 pb-5'>
+            <div className='flex flex-row justify-between px-5 pb-5'>
                 <div className='flex flex-row items-center'>
                     <Image src="/images/logo1.png" alt='logo' className='w-[240px] pt-3' width={220} height={220} />
                 </div>
@@ -75,8 +75,8 @@ export default function Header(){
                     <Link href="#" className='text-customBlue py-2 hover:text-customGray'>About us</Link>
                     <Link href="#" className='text-customBlue py-2 hover:text-customGray'>Services</Link>
                     <Link href="#" className='text-customBlue py-2 hover:text-customGray'>Contact</Link>
-                    <Link href="#" className='text-customBlue py-2 hover:text-customGray'>Login</Link>
-                    <Link href="#" className='text-white bg-customBlue rounded-full font-semibold px-6 py-3 mt-3'>Sign up</Link>
+                    <Link href="/auth/login" className='text-customBlue py-2 hover:text-customGray'>Login</Link>
+                    <Link href="/auth/signup" className='text-white bg-customBlue rounded-full font-semibold px-6 py-3 mt-3'>Sign up</Link>
                 </div>
             )}
         </header>
